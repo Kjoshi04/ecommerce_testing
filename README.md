@@ -39,7 +39,7 @@ A publicly available demo store used for QA practice.
 
 ---
 
-## Summary of Bugs Found (example)
+## Summary of Bugs Found 
 - Blank-search behavior needs validation  
 - Product image zoom / gallery inconsistencies  
 - Cart quantity or total not updating without reload  
