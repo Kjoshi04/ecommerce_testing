@@ -1,1 +1,6 @@
-
+Bug ID,Title,Severity,Steps to Reproduce,Expected Result,Actual Result,Status
+BUG001,"Search accepts blank input and shows empty results",Medium,"1. Open https://demo.litecart.net/ 2. Click search icon without typing anything","Either a validation or homepage should remain, or a helpful message should display","Search triggers but shows no clear message or guidance; UX unclear",Open
+BUG002,"Product image zoom/gallery inconsistent on some products",Low,"1. Open product page with multiple images 2. Click thumbnails or zoom icon","Main image should change and zoom should work consistently","Some thumbnails do not change the main image or zoom does not activate",Open
+BUG003,"Cart total/quantity not updating immediately",High,"1. Add product to cart 2. Open cart dropdown or cart page","Cart count and total should update immediately","Cart count or total sometimes requires page reload to reflect changes",Open
+BUG004,"Thumbnail click does not update main image for certain items",Medium,"1. Go to a product with multiple thumbnails 2. Click thumbnail 3. Observe main image","Main image should switch to the clicked thumbnail","Main image remains unchanged for some thumbnail clicks",Open
+BUG005,"Breadcrumb or category path missing on some category pages",Low,"1. Navigate to a category/subcategory 2. Observe breadcrumb","Breadcrumb should show the correct path (Home > Category > Subcategory)","Breadcrumb is missing or not updated on some navigation flows",Open
