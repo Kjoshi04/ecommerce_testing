@@ -1,1 +1,12 @@
+Test Case ID,Test Scenario,Test Steps,Expected Result,Status
+TC001,"Verify homepage loads successfully","1. Open https://demo.litecart.net/","Homepage should load with header, footer, and product grid visible","Not Executed"
+TC002,"Verify search functionality with valid keyword","1. Open homepage 2. Enter 'yellow duck' (or another product) in search bar 3. Click search","Search results should display matching products","Not Executed"
+TC003,"Verify search with invalid keyword","1. Enter 'abcd1234' in search 2. Click search","Page should show a message or no results found","Not Executed"
+TC004,"Verify product details page opens","1. Click on any product from homepage grid","Product details page should open with image(s), name, price, Add to Cart button","Not Executed"
+TC005,"Verify adding a product to cart","1. Open product page 2. Select options (if any) 3. Click 'Add to Cart'","Success message should appear and cart count should increase","Not Executed"
+TC006,"Verify removing product from cart","1. Add a product to cart 2. Click cart icon 3. Remove item from cart","Product should be removed and cart updated accordingly","Not Executed"
+TC007,"Verify navigation using categories","1. Click on a top category 2. Select a subcategory","Relevant category page should load with product list","Not Executed"
+TC008,"Verify price is displayed on product page","1. Open any product page","Product price should be visible clearly below the product title or near Add to Cart","Not Executed"
+TC009,"Verify image gallery/thumbnail behavior","1. Open product page 2. Click on thumbnails or image gallery","Main image should update when a thumbnail is clicked and zoom (if available) should work","Not Executed"
+TC010,"Verify adding multiple quantities to cart","1. Open product page 2. Change quantity to 2 (or more) 3. Click 'Add to Cart'","Cart should show selected quantity and total cost updated accordingly","Not Executed"
 
