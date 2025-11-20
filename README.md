@@ -53,7 +53,7 @@ A publicly available demo store used for QA practice.
 ## How to Use This Repository
 This repo contains **documentation and QA artifacts only**.  
 Open the CSV files on GitHub or download to Excel to view details.  
-Screenshots (if present) are in the `Screenshots/` folder.
+Screenshots are in the `Screenshots/` folder.
 
 ---
 
